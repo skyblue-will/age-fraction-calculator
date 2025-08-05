@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: age-fraction-calculator
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    region: oregon
+    plan: free
+    autoDeploy: true
